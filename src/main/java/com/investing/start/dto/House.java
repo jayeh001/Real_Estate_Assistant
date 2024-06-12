@@ -1,4 +1,4 @@
-package com.investing.start.retrieval;
+package com.investing.start.dto;
 
 
 //public class House {

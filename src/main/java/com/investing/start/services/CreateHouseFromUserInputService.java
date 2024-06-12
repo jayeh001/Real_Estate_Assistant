@@ -1,6 +1,6 @@
 package com.investing.start.services;
 
-import com.investing.start.retrieval.HouseFactory;
+import com.investing.start.dto.HouseFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

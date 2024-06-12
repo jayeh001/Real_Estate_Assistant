@@ -1,6 +1,5 @@
 package com.investing.start;
 
-import com.investing.start.config.kpiConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
