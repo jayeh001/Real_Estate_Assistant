@@ -11,13 +11,13 @@ public class MortgageService {
             return 0;
         }
 
-        float monthlyMortRate = (float) house.mortgageRate() / (12 * 100);
+        double monthlyMortRate = (double) house.mortgageRate() / (12 * 100);
 
-        float totalPayments = (float) house.loanTerm() * 12;
+        double totalPayments = (double) house.loanTerm() * 12;
 
-        float principal = house.homeValue() - house.downPayment();
+        double principal = house.homeValue() - house.downPayment();
 
-        float constantVar = (float) Math.pow((1 + monthlyMortRate),totalPayments);
+        double constantVar = (double) Math.pow((1 + monthlyMortRate),totalPayments);
 
         return (int) (principal * ((monthlyMortRate * constantVar) / (constantVar - 1)));
     }

@@ -12,7 +12,7 @@ public record House(
         int rentValue,
         int downPayment,
         int loanTerm,
-        int mortgageRate,
+        double mortgageRate,
         double propertyTaxPercent,
         int insurance,
         int appreciation,

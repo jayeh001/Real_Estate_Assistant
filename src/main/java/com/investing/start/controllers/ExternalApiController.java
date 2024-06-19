@@ -20,7 +20,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
-
+//makes a GET request to Rentcast API and returns json data back to Home Controller
 @RestController
 public class ExternalApiController {
 
