@@ -5,7 +5,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CapRateService {
-    public int getCapRate(House house, NOIService noiService) {
+    private final NOIService noiService;
+    public CapRateService(NOIService noiService) {
+        this.noiService = noiService;
+    }
+    public int getCapRate(House house) {
         int noi = noiService.getNOI(house);
         return (noi / house.homeValue()) * 100;
     }
