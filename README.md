@@ -4,3 +4,6 @@
 <h1 align="center">Real Estate KPIs Assistant</h1>
 
 > They say the greatest path to wealth is real estate. Maybe not, but it would still be great to own a house!
+> 
+> As a savvy investor, you may have some potential homes you'd like to invest into. It's tedious trying to pull up 5 different calculators online, let alone,
+> you need to figure out your monthly mortgages and how much cash this property is making per month, and a bunch of other metrics!
