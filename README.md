@@ -7,3 +7,10 @@
 > 
 > As a savvy investor, you may have some potential homes you'd like to invest into. It's tedious trying to pull up 5 different calculators online, let alone,
 > you need to figure out your monthly mortgages and how much cash this property is making per month, and a bunch of other metrics!
+
+## Overview
+This app is a personal project to learn Java Spring Boot and advance my skills in full-stack application development.
+
+It is still in progress as I need to flesh out front-end and deploy it on AWS.
+
+
