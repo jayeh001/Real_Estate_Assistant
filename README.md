@@ -11,6 +11,5 @@
 ## Overview
 This app is a personal project to learn Java Spring Boot and advance my skills in full-stack application development.
 
-It is still in progress as I need to flesh out front-end and deploy it on AWS.
 
 
